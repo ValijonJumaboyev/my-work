@@ -1,0 +1,23 @@
+@media(prefers-color-scheme:light) {
+    :root {
+        --body_dark: #151437;
+        --title: #7177F1;
+    }
+
+    body {
+        background-color: var(--body_dark);
+    }
+
+    .logo::after {
+        content: url(../images/MYWORKDARK.svg);
+    }
+
+    .header_menu {
+        background: #fff;
+    }
+
+    .header_menu::after,
+    .header_menu::before {
+        background-color: #fff;
+    }
+}
