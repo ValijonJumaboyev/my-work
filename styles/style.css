@@ -112,3 +112,109 @@ h6 {
 .header_menu:not(.collapsed) {
     background: transparent;
 }
+
+.header_content_btn {
+    max-width: 299px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_content_text {
+    color: #323232;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+.header_content_title {
+    color: #7177F1;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.ich {
+    color: #e44f26;
+}
+
+.icc {
+    color: #1572B6;
+}
+
+.icb {
+    color: #790FF1;
+}
+
+.header_content_icons:nth-child(1) {
+    color: #e44f26;
+}
+
+.header_content_icons:nth-child(2) {
+    color: #1572B6
+}
+
+.header_content_icons:nth-child(3) {
+    color: #790FF1;
+}
+
+.header_content_link {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_carousel_indicators {
+    position: static !important;
+    margin: 50px 0 !important;
+}
+
+.carousel_image {
+    max-height: 450px;
+    height: 100%;
+}
+
+.header_carousel_indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    background-color: var(--dots);
+    opacity: 1 !important;
+}
+
+.header_carousel_indicators button:nth-child(2) {
+    margin: 0 30px;
+}
+
+.header_carousel_indicators .active {
+    background-color: var(--dots-active);
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar::after {
+    content: "";
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    border: .4vw solid #790FF1;
+    position: absolute;
+    top: 55px;
+    left: 5%;
+    animation: wave .5s linear infinite alternate;
+}
+
+
+@keyframes wave {
+    0% {}
+
+    100% {
+        border-radius: 40%;
+        transform: scale(1.3);
+    }
+}

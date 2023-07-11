@@ -20,4 +20,8 @@
     .header_menu::before {
         background-color: #fff;
     }
+
+    .header_content_text {
+        color: #fff;
+    }
 }
